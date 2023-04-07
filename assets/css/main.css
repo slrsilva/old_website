@@ -130,7 +130,19 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2.25em 0;
+		margin: 0 0 1em 0;
+	}
+
+	p.educ {
+		font-size: .8em;
+		color: #9c9494;
+		line-height: 1.5em;
+	}
+
+	p.bio {
+		font-size: .95em;
+		color: #9c9494;
+		line-height: 1.5em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -201,13 +213,13 @@ input, select, textarea {
 	}
 
 	code {
-		background: #555;
-		border-radius: 5px;
+		background: #747474;
+		border-radius: 2px;
 		color: #fff;
 		font-family: "Source Code Pro", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
-		padding: 0.25em 0.65em;
+		padding: 0.15em 0.6em;
 	}
 
 	pre {
@@ -234,6 +246,11 @@ input, select, textarea {
 
 	.align-right {
 		text-align: right;
+	}
+
+	.align-justified {
+		text-align: justify;
+		text-justify: inter-word;
 	}
 
 /* Row */
@@ -1779,9 +1796,10 @@ input, select, textarea {
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
-		font-size: 0.9em;
+		font-size: 1em;
 		margin-top: -0.25em;
 		line-height: 1.5em;
+		color: #7d7b7b;
 	}
 
 	header.major h2 {
@@ -2201,7 +2219,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 20em;
+			height: 5em;
 			border-radius: 0;
 		}
 
@@ -2229,6 +2247,13 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
+		}
+
+		 .graduation {
+			padding-left: 0.5em;
+			display: list-item;
+			list-style-type: "🤯";
+			padding-inline-start: 1ch;
 		}
 
 		ul.alt {
