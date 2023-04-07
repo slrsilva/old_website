@@ -127,6 +127,7 @@ input, select, textarea {
 
 	em, i {
 		font-style: italic;
+		font-weight: 200;
 	}
 
 	p {
@@ -134,8 +135,8 @@ input, select, textarea {
 	}
 
 	p.educ {
-		font-size: .8em;
-		color: #9c9494;
+		font-size: .85em;
+		color: #7b7b7b;
 		line-height: 1.5em;
 	}
 
@@ -143,6 +144,13 @@ input, select, textarea {
 		font-size: .95em;
 		color: #9c9494;
 		line-height: 1.5em;
+	}
+
+	p.headerbio {
+		font-size: 1.2em;
+		color: #928989;
+		line-height: 1.5em;
+		font-weight: 800;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2247,6 +2255,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
+			padding-bottom: 0.5em;
 		}
 
 		 .graduation {
