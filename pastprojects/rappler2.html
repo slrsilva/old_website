@@ -66,24 +66,21 @@
 						<a href="..\index.html" class="icon solid fa-arrow-left"> Back To Main Page </a>
 						<h3>
 							<p class="align-justified headerbio">
-								UnwRappler: Revealing Rappler’s underlying focus
+								UnwRappler: Predicting mood and polarity of Rappler articles using machine learning
 								
 							</p>
 						</h3>
 					</header>
 					<h4> Executive Summary</h4>
 					<p class="align-justified bio">
-						Rappler, one of the leading online news publishers in the Philippines, seeks to inspire community engagement and create action 
-						for social change through citizen journalism. However, it has recently been under scrutiny by the Philippine government for “twisted” reporting. 
-						This study aims to uncover the underlying themes of Rappler news articles via unsupervised clustering techniques and see if there is an inherent 
-						concentration of news in a specific theme. A total of 11,079 articles were extracted from Rappler’s national news section from January 2018 to 
-						May 2019. The articles were vectorized with a term frequency-inverse document frequency (TF-IDF) weighting and dimensions were reduced by 
-						implementing Latent Semantic Analysis (LSA). Lastly, unsupervised clustering via k-means algorithm was applied to group the articles and 
-						internal validation metrics were utilized to determine the optimal number of clusters. 
-						
-						Ten clusters were uncovered, with Philippine president Rodrigo Duterte as the dominant cluster. 
-						The remaining themes touch on different branches of government, police and weather updates, and trending national issues. 
-						The insights gained from this research can aid Rappler in balancing its reporting by lessening bias towards specific topics.
+						Rappler (www.rappler.com), one of the leading online news publishers in the Philippines, obtains audience sentiment through the Mood Meter 
+						widget embedded in its articles. The Mood Meter allows a reader to select an article’s mood from a set of predefined moods (happy, inspired, 
+						amused, sad, angry, afraid, annoyed, don’t care) with varying polarities (positive mood or negative mood). 
+						Using machine learning algorithms, we created two classification models to predict a Rappler article’s dominant mood and polarity. 
+						A total of 5,735 Rappler articles with metadata such as category, author, and mood ratings were used as the training set. 
+						The resulting models can predict the article polarity with 72% accuracy and the article’s dominant mood with 51% accuracy. 
+						These models can aid Rappler and other news publishers in content personalization, article engineering, and dynamic ad placement and pricing.
+
 					</p>
 				</div>
 			</section>
