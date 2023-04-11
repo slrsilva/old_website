@@ -1,6 +1,8 @@
 <h1> README </h1>
 
-This is the source files for my website. 
+This is the source files for my personal website (https://www.sandrosilva.site)
+
+The goal is to make the website a collection of my projects.
 
 Credits:
     HTML Template: Read Only by HTML5 UP (html5up.net | @ajlkn)
